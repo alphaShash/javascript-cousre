@@ -1,0 +1,27 @@
+// function sayHello() {
+//     console.log('-------------');
+//     console.log('hello');
+//     console.log('-------------');
+// }
+
+// sayHello();
+
+// let a  = sayHello;
+// a();
+
+/*
+function sayHello(name) {
+    console.log('-------------');
+    console.log('hello' + name + '!');
+    console.log('-------------');
+}
+
+sayHello('bob'); */
+
+function calTax(amount) {
+    let result = amount * 0.0825;
+    return result;
+}
+
+let tax = calTax(100);
+console.log(tax);
